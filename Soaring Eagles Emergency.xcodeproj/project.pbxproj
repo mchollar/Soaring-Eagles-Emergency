@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070D7115FA8631F62C007C4D /* Pods_Soaring_Eagles_Emergency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076F9AC4F47C4FF817BFD5D0 /* Pods_Soaring_Eagles_Emergency.framework */; };
+		2213278B230C887D00462B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213278A230C887D00462B52 /* AppDelegate.swift */; };
+		2213278D230C887D00462B52 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213278C230C887D00462B52 /* EmergencyViewController.swift */; };
+		22132792230C887D00462B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22132790230C887D00462B52 /* Main.storyboard */; };
+		22132794230C888000462B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22132793230C888000462B52 /* Assets.xcassets */; };
+		22132797230C888000462B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22132795230C888000462B52 /* LaunchScreen.storyboard */; };
+		222BBB65232984C300C8B57B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BBB64232984C300C8B57B /* InfoViewController.swift */; };
+		222BBB672329872400C8B57B /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BBB662329872400C8B57B /* UIImage+Resize.swift */; };
+		2249DC45230F58450017615F /* ResourcesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DC44230F58450017615F /* ResourcesTVC.swift */; };
+		2249DC472310C1FB0017615F /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DC462310C1FB0017615F /* SetupViewController.swift */; };
+		2249DC492310C6520017615F /* CustomResourceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DC482310C6520017615F /* CustomResourceTVC.swift */; };
+		2249DC4B2310C6790017615F /* CreateCustomResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DC4A2310C6790017615F /* CreateCustomResourceViewController.swift */; };
+		2249DC4D2310C8200017615F /* ResourceContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249DC4C2310C8200017615F /* ResourceContact.swift */; };
+		227564CA23281A6C0053FD47 /* ResourceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227564C923281A6C0053FD47 /* ResourceGroup.swift */; };
+		227564CF23281C5D0053FD47 /* contacts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 227564CE23281C5D0053FD47 /* contacts.txt */; };
+		227564D1232820D60053FD47 /* ResourcesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227564D0232820D60053FD47 /* ResourcesCVC.swift */; };
+		227564D3232821E90053FD47 /* ResourceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227564D2232821E90053FD47 /* ResourceCollectionViewCell.swift */; };
+		227564D523282FCD0053FD47 /* ResourceCVLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227564D423282FCD0053FD47 /* ResourceCVLayout.swift */; };
+		229003112314A81A009D2072 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229003102314A81A009D2072 /* Colors.swift */; };
+		22E89A512319AD75000EC668 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E89A502319AD75000EC668 /* Colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		076F9AC4F47C4FF817BFD5D0 /* Pods_Soaring_Eagles_Emergency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soaring_Eagles_Emergency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A845F5057931EA41ABAFF4B /* Pods-Soaring Eagles Emergency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soaring Eagles Emergency.debug.xcconfig"; path = "Target Support Files/Pods-Soaring Eagles Emergency/Pods-Soaring Eagles Emergency.debug.xcconfig"; sourceTree = "<group>"; };
+		22132787230C887D00462B52 /* Soaring Eagles Emergency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soaring Eagles Emergency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2213278A230C887D00462B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2213278C230C887D00462B52 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		22132791230C887D00462B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22132793230C888000462B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22132796230C888000462B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22132798230C888000462B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222BBB64232984C300C8B57B /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		222BBB662329872400C8B57B /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		2249DC44230F58450017615F /* ResourcesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesTVC.swift; sourceTree = "<group>"; };
+		2249DC462310C1FB0017615F /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		2249DC482310C6520017615F /* CustomResourceTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResourceTVC.swift; sourceTree = "<group>"; };
+		2249DC4A2310C6790017615F /* CreateCustomResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomResourceViewController.swift; sourceTree = "<group>"; };
+		2249DC4C2310C8200017615F /* ResourceContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceContact.swift; sourceTree = "<group>"; };
+		227564C923281A6C0053FD47 /* ResourceGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceGroup.swift; sourceTree = "<group>"; };
+		227564CE23281C5D0053FD47 /* contacts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contacts.txt; sourceTree = "<group>"; };
+		227564D0232820D60053FD47 /* ResourcesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesCVC.swift; sourceTree = "<group>"; };
+		227564D2232821E90053FD47 /* ResourceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCollectionViewCell.swift; sourceTree = "<group>"; };
+		227564D423282FCD0053FD47 /* ResourceCVLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCVLayout.swift; sourceTree = "<group>"; };
+		229003102314A81A009D2072 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		22E89A502319AD75000EC668 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4BEC90E30277C245F39D3C0A /* Pods-Soaring Eagles Emergency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soaring Eagles Emergency.release.xcconfig"; path = "Target Support Files/Pods-Soaring Eagles Emergency/Pods-Soaring Eagles Emergency.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22132784230C887D00462B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070D7115FA8631F62C007C4D /* Pods_Soaring_Eagles_Emergency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2213277E230C887D00462B52 = {
+			isa = PBXGroup;
+			children = (
+				22132789230C887D00462B52 /* Soaring Eagles Emergency */,
+				22132788230C887D00462B52 /* Products */,
+				6878DAD8A19F24D8AF2F3002 /* Pods */,
+				87BDABF1B326C45A6FA135DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22132788230C887D00462B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22132787230C887D00462B52 /* Soaring Eagles Emergency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22132789230C887D00462B52 /* Soaring Eagles Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				2213278A230C887D00462B52 /* AppDelegate.swift */,
+				2213278C230C887D00462B52 /* EmergencyViewController.swift */,
+				2249DC462310C1FB0017615F /* SetupViewController.swift */,
+				222BBB64232984C300C8B57B /* InfoViewController.swift */,
+				2249DC44230F58450017615F /* ResourcesTVC.swift */,
+				227564D0232820D60053FD47 /* ResourcesCVC.swift */,
+				227564D423282FCD0053FD47 /* ResourceCVLayout.swift */,
+				227564D2232821E90053FD47 /* ResourceCollectionViewCell.swift */,
+				2249DC482310C6520017615F /* CustomResourceTVC.swift */,
+				2249DC4A2310C6790017615F /* CreateCustomResourceViewController.swift */,
+				22132790230C887D00462B52 /* Main.storyboard */,
+				222BBB662329872400C8B57B /* UIImage+Resize.swift */,
+				227564CB23281A730053FD47 /* Model */,
+				229003102314A81A009D2072 /* Colors.swift */,
+				22132793230C888000462B52 /* Assets.xcassets */,
+				22E89A502319AD75000EC668 /* Colors.xcassets */,
+				22132795230C888000462B52 /* LaunchScreen.storyboard */,
+				22132798230C888000462B52 /* Info.plist */,
+			);
+			path = "Soaring Eagles Emergency";
+			sourceTree = "<group>";
+		};
+		227564CB23281A730053FD47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				227564C923281A6C0053FD47 /* ResourceGroup.swift */,
+				2249DC4C2310C8200017615F /* ResourceContact.swift */,
+				227564CE23281C5D0053FD47 /* contacts.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6878DAD8A19F24D8AF2F3002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A845F5057931EA41ABAFF4B /* Pods-Soaring Eagles Emergency.debug.xcconfig */,
+				4BEC90E30277C245F39D3C0A /* Pods-Soaring Eagles Emergency.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87BDABF1B326C45A6FA135DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				076F9AC4F47C4FF817BFD5D0 /* Pods_Soaring_Eagles_Emergency.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22132786230C887D00462B52 /* Soaring Eagles Emergency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2213279B230C888000462B52 /* Build configuration list for PBXNativeTarget "Soaring Eagles Emergency" */;
+			buildPhases = (
+				BBC5055ECA36D2BC94AA0715 /* [CP] Check Pods Manifest.lock */,
+				22132783230C887D00462B52 /* Sources */,
+				22132784230C887D00462B52 /* Frameworks */,
+				22132785230C887D00462B52 /* Resources */,
+				B45C190DA07710121430A102 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soaring Eagles Emergency";
+			productName = "Soaring Eagles Emergency";
+			productReference = 22132787230C887D00462B52 /* Soaring Eagles Emergency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2213277F230C887D00462B52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Widgetilities;
+				TargetAttributes = {
+					22132786230C887D00462B52 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 22132782230C887D00462B52 /* Build configuration list for PBXProject "Soaring Eagles Emergency" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2213277E230C887D00462B52;
+			productRefGroup = 22132788230C887D00462B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22132786230C887D00462B52 /* Soaring Eagles Emergency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22132785230C887D00462B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22132797230C888000462B52 /* LaunchScreen.storyboard in Resources */,
+				22E89A512319AD75000EC668 /* Colors.xcassets in Resources */,
+				22132794230C888000462B52 /* Assets.xcassets in Resources */,
+				22132792230C887D00462B52 /* Main.storyboard in Resources */,
+				227564CF23281C5D0053FD47 /* contacts.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B45C190DA07710121430A102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soaring Eagles Emergency/Pods-Soaring Eagles Emergency-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soaring Eagles Emergency/Pods-Soaring Eagles Emergency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC5055ECA36D2BC94AA0715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soaring Eagles Emergency-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22132783230C887D00462B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2249DC472310C1FB0017615F /* SetupViewController.swift in Sources */,
+				229003112314A81A009D2072 /* Colors.swift in Sources */,
+				2249DC4B2310C6790017615F /* CreateCustomResourceViewController.swift in Sources */,
+				2249DC4D2310C8200017615F /* ResourceContact.swift in Sources */,
+				227564D523282FCD0053FD47 /* ResourceCVLayout.swift in Sources */,
+				222BBB65232984C300C8B57B /* InfoViewController.swift in Sources */,
+				227564D1232820D60053FD47 /* ResourcesCVC.swift in Sources */,
+				222BBB672329872400C8B57B /* UIImage+Resize.swift in Sources */,
+				2249DC492310C6520017615F /* CustomResourceTVC.swift in Sources */,
+				2249DC45230F58450017615F /* ResourcesTVC.swift in Sources */,
+				2213278B230C887D00462B52 /* AppDelegate.swift in Sources */,
+				227564CA23281A6C0053FD47 /* ResourceGroup.swift in Sources */,
+				2213278D230C887D00462B52 /* EmergencyViewController.swift in Sources */,
+				227564D3232821E90053FD47 /* ResourceCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22132790230C887D00462B52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22132791230C887D00462B52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22132795230C888000462B52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22132796230C888000462B52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22132799230C888000462B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2213279A230C888000462B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2213279C230C888000462B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A845F5057931EA41ABAFF4B /* Pods-Soaring Eagles Emergency.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 4C592246MX;
+				INFOPLIST_FILE = "Soaring Eagles Emergency/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Widgetilities.Soaring-Eagles-Emergency";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2213279D230C888000462B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEC90E30277C245F39D3C0A /* Pods-Soaring Eagles Emergency.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 4C592246MX;
+				INFOPLIST_FILE = "Soaring Eagles Emergency/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Widgetilities.Soaring-Eagles-Emergency";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22132782230C887D00462B52 /* Build configuration list for PBXProject "Soaring Eagles Emergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22132799230C888000462B52 /* Debug */,
+				2213279A230C888000462B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2213279B230C888000462B52 /* Build configuration list for PBXNativeTarget "Soaring Eagles Emergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2213279C230C888000462B52 /* Debug */,
+				2213279D230C888000462B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2213277F230C887D00462B52 /* Project object */;
+}

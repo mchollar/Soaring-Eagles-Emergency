@@ -1,0 +1,36 @@
+Header;Suicide Prevention and Military Crisis Hotline
+24 Hrs;1-800-273-8255
+Text;838255
+
+Header;Sexual Assault Response Coordinator
+USAFA Crisis Hotline;719-333-7272
+DoD Safe Helpline;1-877-995-5247
+
+Header;Chaplain - Cadet Wing
+Duty Hours;719-333-2636
+After Hours;719-333-2633
+
+Header;Chaplain - Community Center
+Duty Hours;719-333-3300
+After Hours;719-333-2633
+
+Header;First Sergeant - Cadet Wing
+Duty Hours;719-333-0034
+After Hours;719-237-4096
+
+Header;First Sergeant - 306 FTG
+Duty Hours;719-333-3310
+After Hours;719-237-3463
+
+Header;Mental Health Clinic
+Duty Hours;719-333-5177
+
+Header;Military Family Life Counselors (Perm Party Only)
+Primary;719-360-4896
+Alternate;719-246-6802
+
+Header;Peak Performance Center (Cadets Only)
+Duty Hours;719-333-2107
+
+Header;Military OneSource (Free Counseling)
+Primary;18003429647
