@@ -9,12 +9,15 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet weak var versionLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        versionLabel.text = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
     }
     
 
